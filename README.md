@@ -58,12 +58,9 @@ How to run the example
 
 1.  Start Selenium Server
 
-`cd server
+`cd server`
 
-java -Dwebdriver.gecko.driver="geckodriver.exe" -jar
-selenium-server-standalone-3.4.0.jar java
--Dwebdriver.gecko.driver="geckodriver.exe" -jar
-selenium-server-standalone-3.4.0.jar`
+`java -Dwebdriver.gecko.driver="geckodriver.exe" -jar selenium-server-standalone-3.4.0.jar java -Dwebdriver.gecko.driver="geckodriver.exe" -jar selenium-server-standalone-3.4.0.jar`
 
 1.  Run the Test
 
